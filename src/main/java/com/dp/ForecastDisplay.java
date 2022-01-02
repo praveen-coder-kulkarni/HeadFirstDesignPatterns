@@ -20,7 +20,7 @@ public class ForecastDisplay implements Observer, DisplayElement {
       else if(currentPressure == lastPressure)
          System.out.println("More on the same");
       else if(currentPressure < lastPressure)
-         System.out.println("Watchout for cooler, rainy weather!");
+         System.out.println("Watchout for cooler, rainy weather!!");
    }
 
    @Override
